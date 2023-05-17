@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&family=Bebas+Neue&family=Inconsolata&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: 'Barlow Semi Condensed', 'sans-serif';
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+}
+
+nav>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10vw;
+}
+
+nav>h2 {
+    padding-left: 5vw;
+    width: 10vw;
+}
+
+nav>div>a {
+    text-decoration: none;
+    color: black;
+    width: 7vw;
+    list-style: none;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+hr {
+    width: 80vw;
+    margin: auto;
+    height: 1px;
+    background-color: black;
+}
+
+.main_body {
+    font-size: 1.1rem;
+    margin-top: 5vh;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.895);
+    color: whitesmoke;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 7vh;
+    /* padding: auto; */
+}
+
+.info-bar,
+h1 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    width: 20vw;
+    cursor: pointer;
+}
+
+input {
+    width: 40vw;
+    height: 3vh;
+}
+
+.form_btn {
+    margin-top: 7vh;
+    height: 5vh;
+    width: 30vw;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.form_btn:hover {
+    background-color: rgba(68, 66, 66, 0.705);
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: rgba(87, 190, 135, 1);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    cursor: pointer;
+    font-size: larger;
+    /* background-color: black;
+    color: aliceblue; */
+}
+
+.sect {
+    margin: 5vw;
+    font-size: larger;
+    /* width: 40vw; */
+}
+
+#Nikita>img {
+    height: 60vh;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px gray;
+    /* margin-left: 30vw;  */
+}
+
+#Nikita_Id>hr {
+    width: 20vw;
+}
+
+#Nikita_Id>p {
+    margin-left: 2vw;
+}
+
+#Nikita,
+#Nikita_Id,
+#LinkedIn {
+    width: 30vw !important;
+}
+
+#LinkedIn>a>img {
+    height: 100px !important;
+}
+
+#LinkedIn>a>img:hover {
+    height: 110px !important;
+    cursor: pointer;
+}
+
+#submit_msg {
+    margin-top: 4vh;
+    display: block;
+    text-align: center;
+    background-color: green;
+}
+
+#error_msg {
+    margin-top: 4vh;
+    display: block;
+    text-align: center;
+    background-color: red;
+}
+
+.main_body>a:hover {
+    font-size: 1.1rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.set {
+    background-color: rgba(181, 176, 176, 0.899);
+    color: black;
+}
